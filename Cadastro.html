@@ -1,0 +1,38 @@
+<!DOCTPYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="php/css/StylePaginaCadastor.css">
+		<link rel="stylesheet" type="text/css" href="php/css/bootstrap.css">
+		<script src="php/js/ValidacoesTelaCadastro.js"></script>
+		<title>Cadastro</title>
+	</head>
+	<body>
+		
+		<div class="divCadastor" >
+			<h1 >Você esta um passo de otimizar as suas leituras.</h1>
+			
+			
+			
+			<form name="cas" action="php/processa.php"  onsubmit="return validaSenha()" method="post">
+				<label>Nome:</label><br>
+				<input class="form-control" type="text" id="nome" name="nome" required><br>
+				
+				<label>Sobrenome:</label><br>
+				<input class="form-control" type="text" id="sobrenome" name="sobrenome" required><br>
+				
+				<label>E-mail:</label><br>
+				<input class="form-control" type="email" id="email" name="email" required><br>
+				
+				<label>Senha:</label><br>
+				<input class="form-control" type="password" id="senha" name="senha" required><br>
+				
+				<label>Confirmação da senha</label><br>
+				<input class="form-control" type="password" id="Confirmaco" name="confirmacao" required><br>
+				
+				<input class="btn btn-success" type="submit" value="Cadastre-se"><br>
+			</form>	
+		</div>
+	</body>
+</html>

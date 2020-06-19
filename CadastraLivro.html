@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="php/css/StylePaginaDeLogin.css">
+		<link rel="stylesheet" type="text/css" href="php/css/bootstrap.css">
+		<link rel="stylesheet" type="t~" href="php/cadastralivros.php">
+		<link rel="stylesheet" type="t~" href="php/js/ValidacoesTelaCadastro.js">
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/adiciona.js"></script>
+		<title>HOME</title>
+	</head>
+	
+	<body>
+		<div class="divLogin">
+			<form name="cadastaLivro" onsubmit="return camposBanco()" class="form-pesquisa" action = "php/cadastraLivro.php" method="post">
+				<label> Nome do livro:</label><br>
+				<input class="form-control" type="text" name="nomeLivro"required></input><br>
+				<label> Nome do Autor:</label><br>
+				<input class="form-control" type="text" name="nomeAutor" required> </input><br>
+				<label> Nº de numero de Paginas:</label><br>
+				<input class="form-control" type="number" name="paginas" required></input><br>
+				<input class="btn btn-success" type="submit" value="Adicionar">
+			</form>
+		
+		</div>
+		
+		<footer>
+		</footer>
+	</body>
+</html>

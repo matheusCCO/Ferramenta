@@ -1,0 +1,32 @@
+.divCadastor{
+	float:left;
+	margin-left:500px;
+	margin-top:10px;
+	margin-right:100px;
+	border-radius:5px;
+	background-color: #f2f2f2;
+	padding: 50px;
+	box-shadow:10px 10px 5px grey;
+}
+h1{
+	text-align:center;
+	
+}
+a{
+	margin-top:200px;
+
+
+}
+#div1{
+	margin-top:30px;
+	
+}
+#div2{
+	margin-top:50px;
+	
+}
+input{
+	height: 30px;
+	width: 100%;
+	border-radius: 3px;
+}
